@@ -1,0 +1,438 @@
+* {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.alijon {
+    text-align: center;
+    color: blue;
+}
+
+.alijon h2 {
+    color: blue;
+    font-size: 30px;
+}
+
+.alijon h1 {
+    color: blue;
+}
+
+
+.alijon p {
+    color: blue;
+    font-size: 30px;
+}
+
+.aliii {
+    display: flex;
+    justify-content: space-around;
+}
+
+.js {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    display: block;
+}
+
+.aliy {
+    font-size: 30px;
+
+}
+
+.kamron {
+    display: block;
+}
+
+.ota {
+    color: blue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.oltinbek  p {
+    text-align: center;
+    color: blue;
+ 
+}
+
+dsa {
+    font-size: 50px;
+}
+
+
+body {
+    background-color: black;
+}
+
+.bir {
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px;
+    color: blue;
+
+
+}
+
+
+.bir3 {
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
+
+.bir4 img {
+    text-align: center;
+    padding: 0px 15px;
+    margin: 30px;
+}
+
+.bir4 {
+    text-align: center;
+}
+
+.bir6 {
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+}
+
+.bir7 {
+    text-align: center;
+}
+
+
+
+.bir13 {
+    display: flex;
+    text-align: center;
+    color: blue;
+    padding: 60px;
+    /* gap: 30px; */
+    justify-content: space-between;
+
+}
+
+.bir14 {
+    display: flex;
+    color: blue;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.bir14 img {
+    padding: 20px;
+}
+
+.bir13 img {
+    padding: 20px;
+}
+
+.bir16 {
+    color: blue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bir17 {
+    margin: 100px;
+    text-align: center;
+}
+
+.bir18 {
+    color: blue;
+    text-align: center;
+}
+
+.bir19 {
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+}
+
+.bir20 {
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+}
+
+.bir img {
+    border-radius: 50%;
+    height: 300px;
+    width: 350px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    text-align: center;
+}
+
+ul li {
+    margin: auto;
+    width: 500px;
+    color: blue;
+}
+
+.bir7 button {
+    color: blue;
+    background-color: blue;
+}
+
+.bir13 button {
+    color: blue;
+    background: transparent;
+    border-radius: 50px;
+}
+
+.bir14 button {
+    color: rgb(17, 27, 8);
+    background: transparent;
+    border-radius: 50px;
+}
+
+:root {
+    --color-black: #000000;
+    --body-bg: #fff;
+}
+
+.darkmode {
+    --color-black: #fff;
+    --body-bg: #000;
+}
+
+#sun {
+    display: none;
+    color: white;
+}
+
+body {
+    background-color: var(--body-bg);
+}
+
+h1 {
+    color: var(--color-black);
+}
+
+* {
+    box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.dsa {
+    text-align: center;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+
+
+dfgearh body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+input {
+    outline: none;
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+.filters button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.filters button:hover,
+.filters button.active {
+    background-color: #ff8800;
+    color: white;
+}
+
+.food-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.food-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    height: 350px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.food-card .card-img {
+    width: 100%;
+    height: 300px;
+}
+
+.food-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.food-card h1 {
+    font-size: 22px;
+}
+
+/* .food-card:hover {
+    transform: scale(1.05);
+} */
+
+#search-input {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Pagination Styles */
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.pagination button:hover {
+    background-color: #ff8800;
+    color: white;
+}
+
+.pagination button.active {
+    background-color: #ff8800;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
